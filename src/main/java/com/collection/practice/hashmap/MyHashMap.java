@@ -1,27 +1,9 @@
-package org.example;
+package com.collection.practice.hashmap;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.IntStream;
-
-class Entry<K, V> {
-    K key;
-    V value;
-
-    public Entry(K key, V value) {
-        this.key = key;
-        this.value = value;
-    }
-
-    @Override
-    public String toString() {
-        return "Entry{" +
-                "key=" + key +
-                ", value=" + value +
-                '}';
-    }
-}
 
 public class MyHashMap<K, V> {
     private static final int INITIAL_SIZE = 16;
