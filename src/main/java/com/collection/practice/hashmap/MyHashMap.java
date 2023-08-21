@@ -64,17 +64,4 @@ public class MyHashMap<K, V> {
                 "buckets=" + buckets +
                 '}';
     }
-
-    public static void main(String ...args) {
-        MyHashMap<String, Integer> myHashMap = new MyHashMap<>();
-        myHashMap.put("key1", 10);
-        myHashMap.put("key2", 20);
-        myHashMap.put("key3", 30);
-        myHashMap.put("key4", 40);
-
-        System.out.println(myHashMap);
-        System.out.println("Value of key1 is: " + myHashMap.get("key1"));
-        System.out.println("Value of key5 is: " + myHashMap.get("key5"));
-        System.out.println("Does of key6 exists: " + myHashMap.containsKey("key6"));
-    }
 }
