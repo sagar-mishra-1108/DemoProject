@@ -1,0 +1,9 @@
+This is a Demo File
+[1, 2, 3, 4, 5]
+id=101
+name=Aryan
+A new text
+Another new text
+Another new text
+Another new text
+New Line by Buffered Writer
